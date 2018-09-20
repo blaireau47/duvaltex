@@ -1,0 +1,86 @@
+<html xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"> 
+<head>
+<title>Weekly update Item</title>
+
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:TemplateHidden msdt:dt="string">0</mso:TemplateHidden>
+<mso:MasterPageDescription msdt:dt="string">Displays a result tailored for a Weekly update.</mso:MasterPageDescription>
+<mso:ContentTypeId msdt:dt="string">0x01003216C6F14E0F79479A305EA7C05FAEC0</mso:ContentTypeId>
+<mso:TargetControlType msdt:dt="string">;#SearchResults;#</mso:TargetControlType>
+<mso:HtmlDesignAssociated msdt:dt="string">1</mso:HtmlDesignAssociated>
+<mso:CrawlerXSLFile msdt:dt="string"></mso:CrawlerXSLFile>
+<mso:ManagedPropertyMapping msdt:dt="string">'Title':'Title','Path':'Path','ProjectName':'RefinableString103','ProjectNumber':'RefinableString104','ProgramName':'RefinableString105','LastModifiedTime':'LastModifiedTime','WeeklyStatus':'RefinableString107',Responsable':'RefinableString108','ParentLink':'ParentLink'</mso:ManagedPropertyMapping>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+<body>
+        <style>
+        .box{ 
+            background-color: orange;
+            position: absolute;
+            height: 60%;
+            width: 60%;
+            left: 20%;
+            top: 20%;
+          }
+        </style>
+    <div id="Item_WeeklyUpdate">
+<!--#_ 
+                    if(!$isNull(ctx.CurrentItem) && !$isNull(ctx.ClientControl)){
+                        var id = ctx.ClientControl.get_nextUniqueId();
+                        var itemId = id + Srch.U.Ids.item;
+                        var hoverId = id + Srch.U.Ids.hover;
+                        $setResultItem(itemId, ctx.CurrentItem);
+                        var container_id = id + "_WeeklyInfoContainer";
+                        var hhProps = Srch.U.createXMLDocument("<root>" + ctx.CurrentItem.HitHighlightedProperties + "</root>");
+                        var encodedPath = $urlHtmlEncodeString(ctx.CurrentItem.Path);
+                        var projectName = $getItemValue(ctx, "ProjectName").toString();
+                        var projectNumber = $getItemValue(ctx, "ProjectNumber").toString();
+                        var programName = $getItemValue(ctx, "ProgramName").toString();
+                        var lastModifiedTime = ctx.CurrentItem.LastModifiedTime;
+                        var weeklyStatus = $getItemValue(ctx, "WeeklyStatus").toString();
+                        var responsable = $getItemValue(ctx, "Responsable").toString();
+                        var webUrl = encodedPath.slice(0, encodedPath.lastIndexOf("/Lists/"));
+                        var alertColor;
+                        switch(weeklyStatus) {
+                            case "green":
+                                alertColor = "green"
+                                break;
+                            case "yellow":
+                                alertColor = "yellow"
+                                break;
+                            case "red":
+                                alertColor = "red"
+                                break;
+                            default:
+                              alertColor = "black"
+                                break;      
+                        }
+                                
+                        var hoverUrl = "~sitecollection/_catalogs/masterpage/Display Templates/Search/Item_Person_HoverPanel.js";
+_#-->
+                        <div id="_#= $htmlEncode(container_id) =#_" class="ms-srch-people-outerContainer">
+                                <div id="WeeklyUpdateContainer">
+                                    <div id="NameField">
+                                        <div id="NameValue" class="ms-srch-ellipsis ms-textLarge">
+                                            <div style="background-color: _#= alertColor =#_;width:10px;height:10px"></div><a clicktype="Result" id="NameFieldLink" href="_#= webUrl =#_" title="_#= projectName =#_">Project Name : _#= projectName =#_</a>
+                                            <span id="FieldTitle" class="ms-soften">Program Name : _#= programName =#_ </span>
+                                            <span id="FieldTitle" class="ms-soften">Project Number : _#= projectNumber =#_ </span>
+                                            <span id="FieldTitle" class="ms-soften">Last Modified : _#= lastModifiedTime =#_ </span>
+                                        </div>
+                                                                                
+                                        <div id="NameValue" class="ms-srch-ellipsis ms-textLarge">
+                                            <a clicktype="Result" id="NameFieldLink" href="_#= webUrl =#_/Management%20documentations/Forms/AllItems.aspx" title="LinkToManagementDocument">Management Documents</a>
+                                            <a clicktype="Result" id="NameFieldLink" href="_#= webUrl =#_/shared documents/Forms/AllItems.aspx" title="LinkToManagementDocument">Project Documents</a>
+                                        </div>
+                                    </div>
+                                </div>                            
+                        </div>
+                        
+<!--#_ 
+                } 
+_#-->
+    </div>
+</body>
+</html>
