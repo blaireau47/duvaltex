@@ -29,13 +29,13 @@ Apply-PnPProvisioningTemplate -Path "ProjectTemplate.xml"
 
 $listName = "Management documentations"
 Write-Host "Applying default values for columns in list $listName"
-Set-PnPDefaultColumnValues -Web $newProjectWeb -List "$listName" -Field "Program" -Value "$ProgramName"
+Set-PnPDefaultColumnValues  -List "$listName" -Field "Program" -Value "$ProgramName"
 #Set-PnPDefaultColumnValues -Web $newProjectWeb -List "$listName" -Field "Project Name" -Value "$ProjectName"
 #Set-PnPDefaultColumnValues -Web $newProjectWeb -List "$listName" -Field "Project number" -Value "$ProjectNumber"
 
 $listName = "Documents"
 Write-Host "Applying default values for columns in list $listName"
-Set-PnPDefaultColumnValues -Web $newProjectWeb -List "$listName" -Field "Program" -Value "$ProgramName"
+Set-PnPDefaultColumnValues  -List "$listName" -Field "Program" -Value "$ProgramName"
 #Set-PnPDefaultColumnValues -Web $newProjectWeb -List "$listName" -Field "Project Name" -Value "$ProjectName"
 #Set-PnPDefaultColumnValues -Web $newProjectWeb -List "$listName" -Field "Project number" -Value "$ProjectNumber"
 

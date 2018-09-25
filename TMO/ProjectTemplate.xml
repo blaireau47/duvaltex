@@ -59,33 +59,40 @@
         <pnp:SupportedUILanguage LCID="1048" />
       </pnp:SupportedUILanguages>
       <pnp:PropertyBagEntries>
-        <pnp:PropertyBagEntry Key="vti_categories" Value="Travel Expense\ Report Business Competition Goals/Objectives Ideas Miscellaneous Waiting VIP In\ Process Planning Schedule" Overwrite="false" />
-        <pnp:PropertyBagEntry Key="vti_extenderversion" Value="16.0.0.8029" Overwrite="false" />
-        <pnp:PropertyBagEntry Key="HomepageProvisioned" Value="1" Overwrite="false" />
-        <pnp:PropertyBagEntry Key="vti_associatemembergroup" Value="5" Overwrite="false" />
+        <pnp:PropertyBagEntry Key="vti_associategroups" Value="5;4;3" Overwrite="false" />
         <pnp:PropertyBagEntry Key="FollowLinkEnabled" Value="TRUE" Overwrite="false" />
         <pnp:PropertyBagEntry Key="vti_associateownergroup" Value="3" Overwrite="false" />
-        <pnp:PropertyBagEntry Key="vti_associategroups" Value="5;4;3" Overwrite="false" />
-        <pnp:PropertyBagEntry Key="vti_approvallevels" Value="Approved Rejected Pending\ Review" Overwrite="false" />
+        <pnp:PropertyBagEntry Key="vti_indexedpropertykeys" Value="VABoAGUAbQBlAFAAcgBpAG0AYQByAHkA|XwBQAG4AUABfAFAAcgBvAHYAaQBzAGkAbwBuAGkAbgBnAFQAZQBtAHAAbABhAHQAZQBJAGQA|" Overwrite="false" />
+        <pnp:PropertyBagEntry Key="__InheritsThemedCssFolderUrl" Value="False" Overwrite="false" />
+        <pnp:PropertyBagEntry Key="__InheritCurrentNavigation" Value="False" Overwrite="false" />
+        <pnp:PropertyBagEntry Key="_webnavigationsettings" Value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot; standalone=&quot;yes&quot;?&gt;&#xD;&#xA;&lt;WebNavigationSettings Version=&quot;1.1&quot;&gt;&#xD;&#xA;  &lt;SiteMapProviderSettings&gt;&#xD;&#xA;    &lt;SwitchableSiteMapProviderSettings Name=&quot;CurrentNavigationSwitchableProvider&quot; TargetProviderName=&quot;CurrentNavigation&quot; /&gt;&#xD;&#xA;    &lt;TaxonomySiteMapProviderSettings Name=&quot;CurrentNavigationTaxonomyProvider&quot; Disabled=&quot;True&quot; /&gt;&#xD;&#xA;    &lt;SwitchableSiteMapProviderSettings Name=&quot;GlobalNavigationSwitchableProvider&quot; TargetProviderName=&quot;GlobalNavigation&quot; /&gt;&#xD;&#xA;    &lt;TaxonomySiteMapProviderSettings Name=&quot;GlobalNavigationTaxonomyProvider&quot; Disabled=&quot;True&quot; /&gt;&#xD;&#xA;  &lt;/SiteMapProviderSettings&gt;&#xD;&#xA;  &lt;NewPageSettings AddNewPagesToNavigation=&quot;True&quot; CreateFriendlyUrlsForNewPages=&quot;True&quot; /&gt;&#xD;&#xA;&lt;/WebNavigationSettings&gt;&#xD;&#xA;" Overwrite="false" />
         <pnp:PropertyBagEntry Key="vti_defaultlanguage" Value="en-us" Overwrite="false" />
+        <pnp:PropertyBagEntry Key="vti_associatemembergroup" Value="5" Overwrite="false" />
+        <pnp:PropertyBagEntry Key="ThemePrimary" Value="" Overwrite="false" Indexed="true" />
+        <pnp:PropertyBagEntry Key="vti_extenderversion" Value="16.0.0.8029" Overwrite="false" />
         <pnp:PropertyBagEntry Key="vti_associatevisitorgroup" Value="4" Overwrite="false" />
-        <pnp:PropertyBagEntry Key="vti_mastercssfilecache" Value="corev15app.css" Overwrite="false" />
+        <pnp:PropertyBagEntry Key="HomepageProvisioned" Value="1" Overwrite="false" />
+        <pnp:PropertyBagEntry Key="_PnP_ProvisioningTemplateComposedLookInfo" Value="{&quot;SiteLogo&quot;:&quot;{site}/_api/GroupService/GetGroupImage?id='b3576bec-c1a9-447e-8030-c261e65f244c'&amp;hash=636724455494993280&quot;,&quot;AlternateCSS&quot;:&quot;&quot;,&quot;MasterPage&quot;:&quot;{masterpagecatalog}/seattle.master&quot;,&quot;Name&quot;:&quot;Office&quot;,&quot;ColorFile&quot;:&quot;&quot;,&quot;FontFile&quot;:&quot;&quot;,&quot;BackgroundFile&quot;:&quot;&quot;,&quot;Version&quot;:0}" Overwrite="false" />
+        <pnp:PropertyBagEntry Key="vti_categories" Value="Travel Expense\ Report Business Competition Goals/Objectives Ideas Miscellaneous Waiting VIP In\ Process Planning Schedule" Overwrite="false" />
+        <pnp:PropertyBagEntry Key="NoCrawl" Value="false" Overwrite="false" />
+        <pnp:PropertyBagEntry Key="vti_approvallevels" Value="Approved Rejected Pending\ Review" Overwrite="false" />
+        <pnp:PropertyBagEntry Key="__NavigationShowSiblings" Value="false" Overwrite="false" />
+        <pnp:PropertyBagEntry Key="__InheritsMasterUrl" Value="False" Overwrite="false" />
+        <pnp:PropertyBagEntry Key="__InheritsCustomMasterUrl" Value="False" Overwrite="false" />
       </pnp:PropertyBagEntries>
       <pnp:Navigation AddNewPagesToNavigation="true" CreateFriendlyUrlsForNewPages="true">
         <pnp:GlobalNavigation NavigationType="Structural">
-          <pnp:StructuralNavigation RemoveExistingNodes="false" />
+          <pnp:StructuralNavigation RemoveExistingNodes="true" />
         </pnp:GlobalNavigation>
         <pnp:CurrentNavigation NavigationType="StructuralLocal">
-          <pnp:StructuralNavigation RemoveExistingNodes="false">
+          <pnp:StructuralNavigation RemoveExistingNodes="true">
             <pnp:NavigationNode Title="Home" Url="{site}" />
+            <pnp:NavigationNode Title="TMO/Innovation" Url="/sites/DemoTMODuvaltex" />
             <pnp:NavigationNode Title="Project documents" Url="{site}/Shared Documents/Forms/AllItems.aspx" />
-            <pnp:NavigationNode Title="Weekly Updates" Url="{site}/Lists/Weekly Updates/AllItems.aspx" />
-            <pnp:NavigationNode Title="Management documentations" Url="{site}/Management documentations/Forms/AllItems.aspx" />
-            <pnp:NavigationNode Title="Gate status" Url="{site}/Lists/Gate status/AllItems.aspx" />
-            <pnp:NavigationNode Title="Document Templates" Url="/sites/DemoTMODuvaltex/TMO Document Templates/Forms/AllItems.aspx" />
-            <pnp:NavigationNode Title="Recent" Url="" IsExternal="true">
-              <pnp:NavigationNode Title="Gate documentations" Url="{site}/Gate documentations/Forms/AllItems.aspx" />
-              <pnp:NavigationNode Title="Weekly Update Documents" Url="{site}/Weekly Update Documents/Forms/AllItems.aspx" />
+            <pnp:NavigationNode Title="Management" Url="{site}" IsExternal="true">
+              <pnp:NavigationNode Title="Management documentations" Url="{site}/Management documentations/Forms/AllItems.aspx" />
+              <pnp:NavigationNode Title="Gate status" Url="{site}/Lists/Gate status/AllItems.aspx" />
+              <pnp:NavigationNode Title="Weekly Updates" Url="{site}/Lists/Weekly Updates/AllItems.aspx" />
             </pnp:NavigationNode>
           </pnp:StructuralNavigation>
         </pnp:CurrentNavigation>
@@ -97,7 +104,7 @@
             <pnp:ContentTypeBinding ContentTypeID="0x0120" />
           </pnp:ContentTypeBindings>
           <pnp:Views>
-            <View Name="{514EA363-0153-4F3F-83CF-48D2D6ABDD6C}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Documents" Url="/sites/DemoTMODuvaltex/Skype/Gate documentations/Forms/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/dlicon.png?rev=44">
+            <View Name="{B847B5D2-368A-4B0F-B0D7-658555603FAC}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Documents" Url="/sites/DemoTMODuvaltex/Skype/Gate documentations/Forms/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/dlicon.png?rev=44">
               <Query>
                 <OrderBy>
                   <FieldRef Name="FileLeafRef" />
@@ -118,7 +125,7 @@
             </View>
           </pnp:Views>
           <pnp:Fields>
-            <Field ID="{1a53ab5a-11f9-4b92-a377-8cfaaf6ba7be}" Name="_DisplayName" DisplaceOnUpgrade="TRUE" Sortable="FALSE" Filterable="FALSE" Hidden="FALSE" ReadOnly="TRUE" ShowInFileDlg="FALSE" Type="Lookup" DisplayName="Sensitivity" List="Docs" ListInternal="IpLabelCache" FieldRef="LabelId" ShowField="DisplayName" LeftList="Docs" LeftColumnName="IpLabelId" JoinColName="LabelId" JoinRowOrdinal="0" JoinType="LEFT OUTER" SchemaVersion="16.0.162.0" RecreateIfMissing="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_DisplayName" FromBaseType="TRUE" />
+            <Field ID="{1a53ab5a-11f9-4b92-a377-8cfaaf6ba7be}" Name="_DisplayName" DisplaceOnUpgrade="TRUE" Sortable="FALSE" Filterable="FALSE" Hidden="FALSE" ReadOnly="TRUE" ShowInFileDlg="FALSE" Type="Lookup" DisplayName="Sensitivity" List="Docs" ListInternal="IpLabelCache" FieldRef="LabelId" ShowField="DisplayName" LeftList="Docs" LeftColumnName="IpLabelId" JoinColName="LabelId" JoinRowOrdinal="0" JoinType="LEFT OUTER" SchemaVersion="16.0.162.0" RecreateIfMissing="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_DisplayName" FromBaseType="TRUE" Version="4" />
           </pnp:Fields>
           <pnp:FieldRefs>
             <pnp:FieldRef ID="fd5e1090-c94b-4d60-9d44-774f399b0517" Name="h229812c8f74477490ed9cfbf29ed9a9" Hidden="true" DisplayName="Program_0" />
@@ -132,7 +139,7 @@
             <pnp:FieldRef ID="8a121252-85a9-443d-8217-a1b57020fadf" Name="_EndDate" DisplayName="End Date" />
           </pnp:FieldRefs>
           <pnp:Webhooks>
-            <pnp:Webhook ServerNotificationUrl="https://4-eastus1.pushp.svc.ms/notifications?token=w0-82712b6d-39e9-4d83-9194-c295ae184a78" ExpiresInDays="-4" />
+            <pnp:Webhook ServerNotificationUrl="https://4-eastus1.pushp.svc.ms/notifications?token=w0-82712b6d-39e9-4d83-9194-c295ae184a78" ExpiresInDays="-5" />
           </pnp:Webhooks>
         </pnp:ListInstance>
         <pnp:ListInstance Title="Gate status" Description="Holds the information when starting and ending of a gate&#xA;" DocumentTemplate="" OnQuickLaunch="true" TemplateType="100" Url="Lists/Gate status" MinorVersionLimit="0" MaxVersionLimit="0" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" ContentTypesEnabled="true" EnableFolderCreation="false" DefaultDisplayFormUrl="{site}/Lists/Gate status/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/Gate status/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/Gate status/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=44" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
@@ -141,21 +148,22 @@
             <pnp:ContentTypeBinding ContentTypeID="0x0120" />
           </pnp:ContentTypeBindings>
           <pnp:Views>
-            <View Name="{D6B5EAD0-5FA2-4C3D-BE58-F5D5AC235987}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="/sites/DemoTMODuvaltex/Skype/Lists/Gate status/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=44">
+            <View Name="{CE32658C-3798-4D8B-A415-9105943420FF}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="/sites/DemoTMODuvaltex/Skype/Lists/Gate status/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=44">
               <Query>
                 <OrderBy>
                   <FieldRef Name="Gate" />
                 </OrderBy>
               </Query>
               <ViewFields>
-                <FieldRef Name="_EndDate" />
                 <FieldRef Name="Gate" />
                 <FieldRef Name="StartDate" />
+                <FieldRef Name="_EndDate" />
                 <FieldRef Name="Notes1" />
               </ViewFields>
               <RowLimit Paged="TRUE">30</RowLimit>
               <Aggregations Value="Off" />
               <JSLink>clienttemplates.js</JSLink>
+              <CustomFormatter />
             </View>
           </pnp:Views>
           <pnp:FieldRefs>
@@ -171,7 +179,7 @@
             <pnp:FieldRef ID="89cf271b-b90b-4442-8de0-ce8b7006fe7a" Name="Project_x0020_number" DisplayName="Project number" />
           </pnp:FieldRefs>
           <pnp:Webhooks>
-            <pnp:Webhook ServerNotificationUrl="https://1-eastus1.pushp.svc.ms/notifications?token=w0-42126f86-ebce-4f44-ac72-4e17a5467820" ExpiresInDays="-1" />
+            <pnp:Webhook ServerNotificationUrl="https://5-eastus1.pushp.svc.ms/notifications?token=w3-24a2eb4f-1335-47c2-822e-57dcb7705163" ExpiresInDays="1" />
           </pnp:Webhooks>
         </pnp:ListInstance>
         <pnp:ListInstance Title="Management documentations" Description="Documents pertaining to the project administration : Budget, planning, Gate presentation" DocumentTemplate="{site}/Management documentations/Forms/template.dotx" OnQuickLaunch="true" TemplateType="101" Url="Management documentations" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="500" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-e717-4e80-aa17-d0c71b360101" ContentTypesEnabled="true" EnableAttachments="false" ListExperience="NewExperience" DefaultDisplayFormUrl="{site}/Management documentations/Forms/DispForm.aspx" DefaultEditFormUrl="{site}/Management documentations/Forms/EditForm.aspx" DefaultNewFormUrl="{site}/Management documentations/Forms/Upload.aspx" ImageUrl="/_layouts/15/images/itdl.png?rev=44" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
@@ -183,7 +191,7 @@
             <pnp:ContentTypeBinding ContentTypeID="0x0120" />
           </pnp:ContentTypeBindings>
           <pnp:Views>
-            <View Name="{BCE59ED8-7B2A-4B26-9C41-4408E538E47C}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Documents" Url="/sites/DemoTMODuvaltex/Skype/Management documentations/Forms/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/dlicon.png?rev=44">
+            <View Name="{2569B43C-AAC9-4CA9-974B-21FBDB346812}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Documents" Url="/sites/DemoTMODuvaltex/Skype/Management documentations/Forms/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/dlicon.png?rev=44">
               <Query>
                 <OrderBy>
                   <FieldRef Name="FileLeafRef" />
@@ -201,9 +209,29 @@
               <Aggregations Value="Off" />
               <JSLink>clienttemplates.js</JSLink>
             </View>
+            <View Name="{21838B36-EAA9-4277-9000-B58CCDB7AE3C}" Type="HTML" DisplayName="By Gates" Url="/sites/DemoTMODuvaltex/Skype/Management documentations/Forms/By Gates.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/dlicon.png?rev=44">
+              <Query>
+                <OrderBy>
+                  <FieldRef Name="FileLeafRef" />
+                </OrderBy>
+                <GroupBy>
+                  <FieldRef Name="Gate" Ascending="TRUE" />
+                </GroupBy>
+              </Query>
+              <ViewFields>
+                <FieldRef Name="DocIcon" />
+                <FieldRef Name="LinkFilename" />
+                <FieldRef Name="Modified" />
+                <FieldRef Name="Editor" />
+                <FieldRef Name="Gate" />
+                <FieldRef Name="ContentType" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <JSLink>clienttemplates.js</JSLink>
+            </View>
           </pnp:Views>
           <pnp:Fields>
-            <Field ID="{1a53ab5a-11f9-4b92-a377-8cfaaf6ba7be}" Name="_DisplayName" DisplaceOnUpgrade="TRUE" Sortable="FALSE" Filterable="FALSE" Hidden="FALSE" ReadOnly="TRUE" ShowInFileDlg="FALSE" Type="Lookup" DisplayName="Sensitivity" List="Docs" ListInternal="IpLabelCache" FieldRef="LabelId" ShowField="DisplayName" LeftList="Docs" LeftColumnName="IpLabelId" JoinColName="LabelId" JoinRowOrdinal="0" JoinType="LEFT OUTER" SchemaVersion="16.0.162.0" RecreateIfMissing="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_DisplayName" FromBaseType="TRUE" />
+            <Field ID="{1a53ab5a-11f9-4b92-a377-8cfaaf6ba7be}" Name="_DisplayName" DisplaceOnUpgrade="TRUE" Sortable="FALSE" Filterable="FALSE" Hidden="FALSE" ReadOnly="TRUE" ShowInFileDlg="FALSE" Type="Lookup" DisplayName="Sensitivity" List="Docs" ListInternal="IpLabelCache" FieldRef="LabelId" ShowField="DisplayName" LeftList="Docs" LeftColumnName="IpLabelId" JoinColName="LabelId" JoinRowOrdinal="0" JoinType="LEFT OUTER" SchemaVersion="16.0.162.0" RecreateIfMissing="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_DisplayName" FromBaseType="TRUE" Version="4" />
           </pnp:Fields>
           <pnp:FieldRefs>
             <pnp:FieldRef ID="fd5e1090-c94b-4d60-9d44-774f399b0517" Name="h229812c8f74477490ed9cfbf29ed9a9" Hidden="true" DisplayName="Program_0" />
@@ -227,7 +255,7 @@
             <pnp:ContentTypeBinding ContentTypeID="0x0120" />
           </pnp:ContentTypeBindings>
           <pnp:Views>
-            <View Name="{258AB9BB-59F5-4E85-B52C-41B823A4ED22}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="/sites/DemoTMODuvaltex/Skype/Lists/Programs/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=44">
+            <View Name="{B1A84917-7D33-4E5F-A9C8-B47D303CA18C}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="/sites/DemoTMODuvaltex/Skype/Lists/Programs/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=44">
               <Query>
                 <OrderBy>
                   <FieldRef Name="ID" />
@@ -248,20 +276,21 @@
             <pnp:FieldRef ID="34a72e09-3ca6-4931-b2e3-f81c40bb87bd" Name="RoutingRuleDescription" DisplayName="Description" />
             <pnp:FieldRef ID="534a6e6d-873d-4a2e-8a6b-13c1c6f619f1" Name="Responsable" DisplayName="Responsable" />
             <pnp:FieldRef ID="1229812c-8f74-4774-90ed-9cfbf29ed9a9" Name="Program" DisplayName="Program" />
+            <pnp:FieldRef ID="b04eba7c-1c88-4664-853e-eec6107dce8b" Name="Gate" DisplayName="Gate" />
           </pnp:FieldRefs>
           <pnp:Webhooks>
-            <pnp:Webhook ServerNotificationUrl="https://4-eastus1.pushp.svc.ms/notifications?token=w0-46cc4955-27e6-4a08-9201-ea704b13956d" ExpiresInDays="-4" />
-            <pnp:Webhook ServerNotificationUrl="https://4-eastus1.pushp.svc.ms/notifications?token=w0-667ae919-7e6b-451d-bf8b-c44f05e29756" ExpiresInDays="-4" />
-            <pnp:Webhook ServerNotificationUrl="https://4-eastus1.pushp.svc.ms/notifications?token=w0-9bae83bd-a075-4e54-8c36-4a521bcb2070" ExpiresInDays="-4" />
+            <pnp:Webhook ServerNotificationUrl="https://4-eastus1.pushp.svc.ms/notifications?token=w0-46cc4955-27e6-4a08-9201-ea704b13956d" ExpiresInDays="-5" />
+            <pnp:Webhook ServerNotificationUrl="https://4-eastus1.pushp.svc.ms/notifications?token=w0-667ae919-7e6b-451d-bf8b-c44f05e29756" ExpiresInDays="-5" />
+            <pnp:Webhook ServerNotificationUrl="https://4-eastus1.pushp.svc.ms/notifications?token=w0-9bae83bd-a075-4e54-8c36-4a521bcb2070" ExpiresInDays="-5" />
           </pnp:Webhooks>
         </pnp:ListInstance>
-        <pnp:ListInstance Title="Project documents" Description="" DocumentTemplate="{site}/Shared Documents/Forms/template.dotx" OnQuickLaunch="true" TemplateType="101" Url="Shared Documents" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="500" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-e717-4e80-aa17-d0c71b360101" EnableAttachments="false" ListExperience="NewExperience" DefaultDisplayFormUrl="{site}/Shared Documents/Forms/DispForm.aspx" DefaultEditFormUrl="{site}/Shared Documents/Forms/EditForm.aspx" DefaultNewFormUrl="{site}/Shared Documents/Forms/Upload.aspx" ImageUrl="/_layouts/15/images/itdl.png?rev=44" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
+        <pnp:ListInstance Title="Project documents" Description="" ContentTypesEnabled="true" DocumentTemplate="{site}/Shared Documents/Forms/template.dotx" OnQuickLaunch="true" TemplateType="101" Url="Shared Documents" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="500" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-e717-4e80-aa17-d0c71b360101" EnableAttachments="false" ListExperience="NewExperience" DefaultDisplayFormUrl="{site}/Shared Documents/Forms/DispForm.aspx" DefaultEditFormUrl="{site}/Shared Documents/Forms/EditForm.aspx" DefaultNewFormUrl="{site}/Shared Documents/Forms/Upload.aspx" ImageUrl="/_layouts/15/images/itdl.png?rev=44" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
           <pnp:ContentTypeBindings>
             <pnp:ContentTypeBinding ContentTypeID="0x010100047487BC711F7E42B022E09BF91C639F" Default="true" />
             <pnp:ContentTypeBinding ContentTypeID="0x0120" />
           </pnp:ContentTypeBindings>
           <pnp:Views>
-            <View Name="{076B259F-0509-43AE-B35F-BD76DB16E9F8}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Documents" Url="/sites/DemoTMODuvaltex/Skype/Shared Documents/Forms/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/dlicon.png?rev=44">
+            <View Name="{C5BA18A9-6A49-4735-8DDB-DE6D0223A91B}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Documents" Url="/sites/DemoTMODuvaltex/Skype/Shared Documents/Forms/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/dlicon.png?rev=44">
               <Query>
                 <OrderBy>
                   <FieldRef Name="FileLeafRef" />
@@ -270,19 +299,21 @@
               <ViewFields>
                 <FieldRef Name="DocIcon" />
                 <FieldRef Name="LinkFilename" />
-                <FieldRef Name="Modified" />
-                <FieldRef Name="Editor" />
-                <FieldRef Name="Program" />
                 <FieldRef Name="Project_x0020_Name" />
+                <FieldRef Name="Gate" />
                 <FieldRef Name="Project_x0020_number" />
+                <FieldRef Name="Program" />
+                <FieldRef Name="Editor" />
+                <FieldRef Name="Modified" />
               </ViewFields>
               <RowLimit Paged="TRUE">30</RowLimit>
               <Aggregations Value="Off" />
               <JSLink>clienttemplates.js</JSLink>
+              <CustomFormatter />
             </View>
           </pnp:Views>
           <pnp:Fields>
-            <Field ID="{1a53ab5a-11f9-4b92-a377-8cfaaf6ba7be}" Name="_DisplayName" DisplaceOnUpgrade="TRUE" Sortable="FALSE" Filterable="FALSE" Hidden="FALSE" ReadOnly="TRUE" ShowInFileDlg="FALSE" Type="Lookup" DisplayName="Sensitivity" List="Docs" ListInternal="IpLabelCache" FieldRef="LabelId" ShowField="DisplayName" LeftList="Docs" LeftColumnName="IpLabelId" JoinColName="LabelId" JoinRowOrdinal="0" JoinType="LEFT OUTER" SchemaVersion="16.0.162.0" RecreateIfMissing="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_DisplayName" FromBaseType="TRUE" />
+            <Field ID="{1a53ab5a-11f9-4b92-a377-8cfaaf6ba7be}" Name="_DisplayName" DisplaceOnUpgrade="TRUE" Sortable="FALSE" Filterable="FALSE" Hidden="FALSE" ReadOnly="TRUE" ShowInFileDlg="FALSE" Type="Lookup" DisplayName="Sensitivity" List="Docs" ListInternal="IpLabelCache" FieldRef="LabelId" ShowField="DisplayName" LeftList="Docs" LeftColumnName="IpLabelId" JoinColName="LabelId" JoinRowOrdinal="0" JoinType="LEFT OUTER" SchemaVersion="16.0.162.0" RecreateIfMissing="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_DisplayName" FromBaseType="TRUE" Version="4" />
           </pnp:Fields>
           <pnp:FieldRefs>
             <pnp:FieldRef ID="fd5e1090-c94b-4d60-9d44-774f399b0517" Name="h229812c8f74477490ed9cfbf29ed9a9" Hidden="true" DisplayName="Program_0" />
@@ -302,7 +333,7 @@
             <pnp:FieldRef ID="db8d9d6d-dc9a-4fbd-85f3-4a753bfdc58c" Name="_LikeCount" DisplayName="Like count" />
           </pnp:FieldRefs>
           <pnp:Webhooks>
-            <pnp:Webhook ServerNotificationUrl="https://4-eastus1.pushp.svc.ms/notifications?token=w0-038f2261-162c-41b2-bfa9-80de3b87f18d" ExpiresInDays="0" />
+            <pnp:Webhook ServerNotificationUrl="https://4-eastus1.pushp.svc.ms/notifications?token=w0-038f2261-162c-41b2-bfa9-80de3b87f18d" ExpiresInDays="1" />
           </pnp:Webhooks>
         </pnp:ListInstance>
         <pnp:ListInstance Title="Projects" Description="" DocumentTemplate="" TemplateType="100" Url="Lists/Projects" MinorVersionLimit="0" MaxVersionLimit="0" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" ContentTypesEnabled="true" EnableFolderCreation="false" DefaultDisplayFormUrl="{site}/Lists/Projects/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/Projects/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/Projects/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=44" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
@@ -312,7 +343,7 @@
             <pnp:ContentTypeBinding ContentTypeID="0x0120" />
           </pnp:ContentTypeBindings>
           <pnp:Views>
-            <View Name="{81E0A338-EC40-4A61-92FF-2C25B9BF9601}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="/sites/DemoTMODuvaltex/Skype/Lists/Projects/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=44">
+            <View Name="{4F141188-826C-4DBA-AB5C-EE5B8FEEC16D}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="/sites/DemoTMODuvaltex/Skype/Lists/Projects/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=44">
               <Query>
                 <OrderBy>
                   <FieldRef Name="ID" />
@@ -343,174 +374,11 @@
             <pnp:FieldRef ID="f334ee3a-f635-4199-b25e-dd3de911055b" Name="Project_x0020_Type" DisplayName="Project Type" />
             <pnp:FieldRef ID="1229812c-8f74-4774-90ed-9cfbf29ed9a9" Name="Program" DisplayName="Program" />
             <pnp:FieldRef ID="79b0c2a2-0c83-498f-a747-58ae55d1b24f" Name="Project_x0020_Site" DisplayName="Project Site" />
+            <pnp:FieldRef ID="b04eba7c-1c88-4664-853e-eec6107dce8b" Name="Gate" DisplayName="Gate" />
           </pnp:FieldRefs>
           <pnp:Webhooks>
-            <pnp:Webhook ServerNotificationUrl="https://2-eastus1.pushp.svc.ms/notifications?token=w3-b17cfcb7-6f30-47a6-a97c-aa7837a26257" ExpiresInDays="-4" />
+            <pnp:Webhook ServerNotificationUrl="https://2-eastus1.pushp.svc.ms/notifications?token=w3-b17cfcb7-6f30-47a6-a97c-aa7837a26257" ExpiresInDays="-5" />
           </pnp:Webhooks>
-        </pnp:ListInstance>
-        <pnp:ListInstance Title="Site Assets" Description="Use this library to store files which are included on pages within this site, such as images on Wiki pages." DocumentTemplate="{site}/SiteAssets/Forms/template.doc" TemplateType="101" Url="SiteAssets" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="500" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-e717-4e80-aa17-d0c71b360101" EnableAttachments="false" DefaultDisplayFormUrl="{site}/SiteAssets/Forms/DispForm.aspx" DefaultEditFormUrl="{site}/SiteAssets/Forms/EditForm.aspx" DefaultNewFormUrl="{site}/SiteAssets/Forms/Upload.aspx" ImageUrl="/_layouts/15/images/itdl.png?rev=44" IsApplicationList="true" ValidationFormula="" ValidationMessage="">
-          <pnp:ContentTypeBindings>
-            <pnp:ContentTypeBinding ContentTypeID="0x0101" Default="true" />
-            <pnp:ContentTypeBinding ContentTypeID="0x0120" />
-          </pnp:ContentTypeBindings>
-          <pnp:Views>
-            <View Name="{891373E0-C2D3-4D57-A20D-1A58BB8A83F8}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Documents" Url="/sites/DemoTMODuvaltex/Skype/SiteAssets/Forms/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/dlicon.png?rev=44">
-              <Query>
-                <OrderBy>
-                  <FieldRef Name="FileLeafRef" />
-                </OrderBy>
-              </Query>
-              <ViewFields>
-                <FieldRef Name="DocIcon" />
-                <FieldRef Name="LinkFilename" />
-                <FieldRef Name="Modified" />
-                <FieldRef Name="Editor" />
-              </ViewFields>
-              <RowLimit Paged="TRUE">30</RowLimit>
-              <JSLink>clienttemplates.js</JSLink>
-            </View>
-          </pnp:Views>
-          <pnp:Fields>
-            <Field ID="{1a53ab5a-11f9-4b92-a377-8cfaaf6ba7be}" Name="_DisplayName" DisplaceOnUpgrade="TRUE" Sortable="FALSE" Filterable="FALSE" Hidden="FALSE" ReadOnly="TRUE" ShowInFileDlg="FALSE" Type="Lookup" DisplayName="Sensitivity" List="Docs" ListInternal="IpLabelCache" FieldRef="LabelId" ShowField="DisplayName" LeftList="Docs" LeftColumnName="IpLabelId" JoinColName="LabelId" JoinRowOrdinal="0" JoinType="LEFT OUTER" SchemaVersion="16.0.162.0" RecreateIfMissing="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_DisplayName" FromBaseType="TRUE" />
-          </pnp:Fields>
-          <pnp:FieldRefs>
-            <pnp:FieldRef ID="ccc1037f-f65e-434a-868e-8c98af31fe29" Name="_ComplianceFlags" DisplayName="Label setting" />
-            <pnp:FieldRef ID="d4b6480a-4bed-4094-9a52-30181ea38f1d" Name="_ComplianceTag" DisplayName="Labels" />
-            <pnp:FieldRef ID="92be610e-ddbb-49f4-b3b1-5c2bc768df8f" Name="_ComplianceTagWrittenTime" DisplayName="Label Applied" />
-            <pnp:FieldRef ID="418d7676-2d6f-42cf-a16a-e43d2971252a" Name="_ComplianceTagUserId" DisplayName="Label applied by" />
-            <pnp:FieldRef ID="8382d247-72a9-44b1-9794-7b177edc89f3" Name="_IsRecord" DisplayName="Item is a Record" />
-            <pnp:FieldRef ID="d307dff3-340f-44a2-9f4b-fbfe1ba07459" Name="_CommentCount" DisplayName="Comment count" />
-            <pnp:FieldRef ID="db8d9d6d-dc9a-4fbd-85f3-4a753bfdc58c" Name="_LikeCount" DisplayName="Like count" />
-            <pnp:FieldRef ID="3a6b296c-3f50-445c-a13f-9c679ea9dda3" Name="ComplianceAssetId" DisplayName="Compliance Asset Id" />
-          </pnp:FieldRefs>
-        </pnp:ListInstance>
-        <pnp:ListInstance Title="Site Pages" Description="" DocumentTemplate="" TemplateType="119" Url="SitePages" EnableVersioning="true" EnableMinorVersions="true" MinorVersionLimit="0" MaxVersionLimit="0" DraftVersionVisibility="1" TemplateFeatureID="00bfea71-c796-4402-9f2f-0eb9a6e71b18" ContentTypesEnabled="true" EnableAttachments="false" EnableFolderCreation="false" DefaultDisplayFormUrl="{site}/SitePages/Forms/DispForm.aspx" DefaultEditFormUrl="{site}/SitePages/Forms/EditForm.aspx" DefaultNewFormUrl="{site}/SitePages/Forms/Upload.aspx" ImageUrl="/_layouts/15/images/itdl.png?rev=44" IsApplicationList="true" ValidationFormula="" ValidationMessage="">
-          <pnp:ContentTypeBindings>
-            <pnp:ContentTypeBinding ContentTypeID="0x010108" Default="true" />
-            <pnp:ContentTypeBinding ContentTypeID="0x0101009D1CB255DA76424F860D91F20E6C4118" />
-            <pnp:ContentTypeBinding ContentTypeID="0x0101009D1CB255DA76424F860D91F20E6C4118002A50BFCFB7614729B56886FADA02339B" />
-            <pnp:ContentTypeBinding ContentTypeID="0x01010901" />
-            <pnp:ContentTypeBinding ContentTypeID="0x0120" />
-          </pnp:ContentTypeBindings>
-          <pnp:Views>
-            <View Name="{1107951B-FC7A-44D3-BB3B-A062ED09F327}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="By Author" Url="/sites/DemoTMODuvaltex/Skype/SitePages/Forms/ByAuthor.aspx" Level="1" BaseViewID="4" ContentTypeID="0x" ToolbarTemplate="WikiLibraryViewToolBar" ImageUrl="/_layouts/15/images/dlicon.png?rev=44">
-              <Query>
-                <GroupBy Collapse="FALSE">
-                  <FieldRef Name="Author" />
-                </GroupBy>
-                <OrderBy>
-                  <FieldRef Name="Modified" />
-                </OrderBy>
-              </Query>
-              <ViewFields>
-                <FieldRef Name="DocIcon" />
-                <FieldRef Name="LinkFilename" />
-                <FieldRef Name="Editor" />
-                <FieldRef Name="Modified" />
-                <FieldRef Name="Created" />
-              </ViewFields>
-              <RowLimit Paged="TRUE">30</RowLimit>
-              <JSLink>clienttemplates.js</JSLink>
-            </View>
-            <View Name="{77232BCB-3AA1-4B13-8D76-27E3BCA62398}" Type="HTML" DisplayName="Recent Changes" Url="/sites/DemoTMODuvaltex/Skype/SitePages/Forms/RecentChanges.aspx" Level="1" BaseViewID="4" ContentTypeID="0x" ToolbarTemplate="WikiLibraryViewToolBar" ImageUrl="/_layouts/15/images/dlicon.png?rev=44">
-              <Query>
-                <OrderBy>
-                  <FieldRef Name="Modified" Ascending="FALSE" />
-                </OrderBy>
-              </Query>
-              <ViewFields>
-                <FieldRef Name="DocIcon" />
-                <FieldRef Name="LinkFilename" />
-                <FieldRef Name="Editor" />
-                <FieldRef Name="Modified" />
-                <FieldRef Name="Author" />
-                <FieldRef Name="Created" />
-              </ViewFields>
-              <RowLimit Paged="TRUE">30</RowLimit>
-              <JSLink>clienttemplates.js</JSLink>
-            </View>
-            <View Name="{734D7691-7D02-4D33-8947-34497ADD1323}" Type="HTML" DisplayName="Created By Me" Url="/sites/DemoTMODuvaltex/Skype/SitePages/Forms/CreatedByMe.aspx" Level="1" BaseViewID="4" ContentTypeID="0x" ToolbarTemplate="WikiLibraryViewToolBar" ImageUrl="/_layouts/15/images/dlicon.png?rev=44">
-              <Query>
-                <Where>
-                  <Eq>
-                    <FieldRef Name="Author" />
-                    <Value Type="Integer">
-                      <UserID />
-                    </Value>
-                  </Eq>
-                </Where>
-                <OrderBy>
-                  <FieldRef Name="FileLeafRef" />
-                </OrderBy>
-              </Query>
-              <ViewFields>
-                <FieldRef Name="DocIcon" />
-                <FieldRef Name="LinkFilename" />
-                <FieldRef Name="Editor" />
-                <FieldRef Name="Modified" />
-                <FieldRef Name="Author" />
-                <FieldRef Name="Created" />
-              </ViewFields>
-              <RowLimit Paged="TRUE">30</RowLimit>
-              <JSLink>clienttemplates.js</JSLink>
-            </View>
-            <View Name="{8F40CF71-991B-464D-BAFA-DBEA62A2FFE5}" Type="HTML" DisplayName="By Editor" Url="/sites/DemoTMODuvaltex/Skype/SitePages/Forms/ByEditor.aspx" Level="1" BaseViewID="4" ContentTypeID="0x" ToolbarTemplate="WikiLibraryViewToolBar" ImageUrl="/_layouts/15/images/dlicon.png?rev=44">
-              <Query>
-                <GroupBy Collapse="FALSE">
-                  <FieldRef Name="Editor" />
-                </GroupBy>
-                <OrderBy>
-                  <FieldRef Name="FileLeafRef" />
-                </OrderBy>
-              </Query>
-              <ViewFields>
-                <FieldRef Name="DocIcon" />
-                <FieldRef Name="LinkFilename" />
-                <FieldRef Name="Editor" />
-                <FieldRef Name="Modified" />
-                <FieldRef Name="Author" />
-                <FieldRef Name="Created" />
-              </ViewFields>
-              <RowLimit Paged="TRUE">30</RowLimit>
-              <JSLink>clienttemplates.js</JSLink>
-            </View>
-            <View Name="{79E42C9C-A2F9-4618-8D35-34C96F7FA1CD}" Type="HTML" DisplayName="All Pages" Url="/sites/DemoTMODuvaltex/Skype/SitePages/Forms/AllPages.aspx" Level="1" BaseViewID="4" ContentTypeID="0x" ToolbarTemplate="WikiLibraryViewToolBar" ImageUrl="/_layouts/15/images/dlicon.png?rev=44">
-              <Query>
-                <OrderBy>
-                  <FieldRef Name="Modified" Ascending="FALSE" />
-                </OrderBy>
-              </Query>
-              <ViewFields>
-                <FieldRef Name="DocIcon" />
-                <FieldRef Name="LinkFilename" />
-                <FieldRef Name="Editor" />
-                <FieldRef Name="Modified" />
-                <FieldRef Name="Author" />
-                <FieldRef Name="Created" />
-              </ViewFields>
-              <RowLimit Paged="TRUE">30</RowLimit>
-              <JSLink>clienttemplates.js</JSLink>
-            </View>
-          </pnp:Views>
-          <pnp:Fields>
-            <Field ID="{1a53ab5a-11f9-4b92-a377-8cfaaf6ba7be}" Name="_DisplayName" DisplaceOnUpgrade="TRUE" Sortable="FALSE" Filterable="FALSE" Hidden="FALSE" ReadOnly="TRUE" ShowInFileDlg="FALSE" Type="Lookup" DisplayName="Sensitivity" List="Docs" ListInternal="IpLabelCache" FieldRef="LabelId" ShowField="DisplayName" LeftList="Docs" LeftColumnName="IpLabelId" JoinColName="LabelId" JoinRowOrdinal="0" JoinType="LEFT OUTER" SchemaVersion="16.0.162.0" RecreateIfMissing="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_DisplayName" FromBaseType="TRUE" />
-          </pnp:Fields>
-          <pnp:FieldRefs>
-            <pnp:FieldRef ID="c33527b4-d920-4587-b791-45024d00068a" Name="WikiField" DisplayName="Wiki Content" />
-            <pnp:FieldRef ID="4966388e-6e12-4bc6-8990-5b5b66153eae" Name="CanvasContent1" DisplayName="Authoring Canvas Content" />
-            <pnp:FieldRef ID="5baf6db5-9d25-4738-b15e-db5789298e82" Name="BannerImageUrl" DisplayName="Banner Image URL" />
-            <pnp:FieldRef ID="3f155110-a6a2-4d70-926c-94648101f0e8" Name="Description" DisplayName="Description" />
-            <pnp:FieldRef ID="f5ad16a2-85be-46b2-b5f0-2bb8b4a5074a" Name="PromotedState" DisplayName="Promoted State" />
-            <pnp:FieldRef ID="c84f8697-331e-457d-884a-c4fb8f30ea74" Name="FirstPublishedDate" DisplayName="First Published Date" />
-            <pnp:FieldRef ID="261075db-0525-4fb8-a6ea-772014186599" Name="LayoutWebpartsContent" DisplayName="Page Layout Content" />
-            <pnp:FieldRef ID="1a7348e7-1bb7-4a47-9790-088e7cb20b58" Name="_AuthorByline" DisplayName="Author Byline" />
-            <pnp:FieldRef ID="d60d65ff-ff42-4044-a684-ac3f7a5e598c" Name="_TopicHeader" DisplayName="Topic header" />
-            <pnp:FieldRef ID="0e7b982f-698a-4d0c-aacb-f16906f66d30" Name="_OriginalSourceUrl" DisplayName="Original Source Url" />
-            <pnp:FieldRef ID="36193413-dd5c-4096-8c1e-1b40098b9ba3" Name="_OriginalSourceSiteId" DisplayName="Original Source Site ID" />
-            <pnp:FieldRef ID="3477a5bc-c605-4b2e-a7c1-8db8f13c017e" Name="_OriginalSourceWebId" DisplayName="Original Source Web ID" />
-            <pnp:FieldRef ID="139da674-dbf6-439f-98e0-4eb05fa9a669" Name="_OriginalSourceListId" DisplayName="Original Source List ID" />
-            <pnp:FieldRef ID="91e86a43-75f2-426f-80da-35edfb47d55d" Name="_OriginalSourceItemId" DisplayName="Original Source Item ID" />
-          </pnp:FieldRefs>
         </pnp:ListInstance>
         <pnp:ListInstance Title="Weekly Update Documents" Description="" DocumentTemplate="{site}/Weekly Update Documents/Forms/template.dotx" TemplateType="101" Url="Weekly Update Documents" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="500" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-e717-4e80-aa17-d0c71b360101" ContentTypesEnabled="true" EnableAttachments="false" DefaultDisplayFormUrl="{site}/Weekly Update Documents/Forms/DispForm.aspx" DefaultEditFormUrl="{site}/Weekly Update Documents/Forms/EditForm.aspx" DefaultNewFormUrl="{site}/Weekly Update Documents/Forms/Upload.aspx" ImageUrl="/_layouts/15/images/itdl.png?rev=44" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
           <pnp:ContentTypeBindings>
@@ -518,7 +386,7 @@
             <pnp:ContentTypeBinding ContentTypeID="0x0120" />
           </pnp:ContentTypeBindings>
           <pnp:Views>
-            <View Name="{02C456B2-AAEB-4DBE-A091-25AD72B32BF8}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Documents" Url="/sites/DemoTMODuvaltex/Skype/Weekly Update Documents/Forms/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/dlicon.png?rev=44">
+            <View Name="{14FB0727-B4D3-45C5-B156-0988BF3C6A6E}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Documents" Url="/sites/DemoTMODuvaltex/Skype/Weekly Update Documents/Forms/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/dlicon.png?rev=44">
               <Query>
                 <OrderBy>
                   <FieldRef Name="FileLeafRef" />
@@ -535,7 +403,7 @@
             </View>
           </pnp:Views>
           <pnp:Fields>
-            <Field ID="{1a53ab5a-11f9-4b92-a377-8cfaaf6ba7be}" Name="_DisplayName" DisplaceOnUpgrade="TRUE" Sortable="FALSE" Filterable="FALSE" Hidden="FALSE" ReadOnly="TRUE" ShowInFileDlg="FALSE" Type="Lookup" DisplayName="Sensitivity" List="Docs" ListInternal="IpLabelCache" FieldRef="LabelId" ShowField="DisplayName" LeftList="Docs" LeftColumnName="IpLabelId" JoinColName="LabelId" JoinRowOrdinal="0" JoinType="LEFT OUTER" SchemaVersion="16.0.162.0" RecreateIfMissing="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_DisplayName" FromBaseType="TRUE" />
+            <Field ID="{1a53ab5a-11f9-4b92-a377-8cfaaf6ba7be}" Name="_DisplayName" DisplaceOnUpgrade="TRUE" Sortable="FALSE" Filterable="FALSE" Hidden="FALSE" ReadOnly="TRUE" ShowInFileDlg="FALSE" Type="Lookup" DisplayName="Sensitivity" List="Docs" ListInternal="IpLabelCache" FieldRef="LabelId" ShowField="DisplayName" LeftList="Docs" LeftColumnName="IpLabelId" JoinColName="LabelId" JoinRowOrdinal="0" JoinType="LEFT OUTER" SchemaVersion="16.0.162.0" RecreateIfMissing="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_DisplayName" FromBaseType="TRUE" Version="4" />
           </pnp:Fields>
           <pnp:FieldRefs>
             <pnp:FieldRef ID="fd5e1090-c94b-4d60-9d44-774f399b0517" Name="h229812c8f74477490ed9cfbf29ed9a9" Hidden="true" DisplayName="Program_0" />
@@ -547,7 +415,7 @@
             <pnp:FieldRef ID="1229812c-8f74-4774-90ed-9cfbf29ed9a9" Name="Program" DisplayName="Program" />
           </pnp:FieldRefs>
           <pnp:Webhooks>
-            <pnp:Webhook ServerNotificationUrl="https://4-eastus1.pushp.svc.ms/notifications?token=w3-3aae1586-bbea-4d00-be3d-22145776b9d4" ExpiresInDays="-4" />
+            <pnp:Webhook ServerNotificationUrl="https://4-eastus1.pushp.svc.ms/notifications?token=w3-3aae1586-bbea-4d00-be3d-22145776b9d4" ExpiresInDays="-5" />
           </pnp:Webhooks>
         </pnp:ListInstance>
         <pnp:ListInstance Title="Weekly Updates" Description="" DocumentTemplate="" OnQuickLaunch="true" TemplateType="100" Url="Lists/Weekly Updates" MinorVersionLimit="0" MaxVersionLimit="0" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" ContentTypesEnabled="true" EnableFolderCreation="false" DefaultDisplayFormUrl="{site}/Lists/Weekly Updates/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/Weekly Updates/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/Weekly Updates/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=44" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
@@ -556,7 +424,7 @@
             <pnp:ContentTypeBinding ContentTypeID="0x0120" />
           </pnp:ContentTypeBindings>
           <pnp:Views>
-            <View Name="{E7D0CBF2-649C-4B5D-B268-8B7E19EFC81F}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="/sites/DemoTMODuvaltex/Skype/Lists/Weekly Updates/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=44">
+            <View Name="{9A051A23-4375-4828-97C3-E822D3CD1044}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="/sites/DemoTMODuvaltex/Skype/Lists/Weekly Updates/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=44">
               <Query>
                 <OrderBy>
                   <FieldRef Name="Created" />
@@ -564,16 +432,17 @@
                 </OrderBy>
               </Query>
               <ViewFields>
-                <FieldRef Name="LinkTitle" />
-                <FieldRef Name="Important_x0020_Notes" />
-                <FieldRef Name="Modified" />
-                <FieldRef Name="Notes1" />
-                <FieldRef Name="Weekly_x0020_Budget" />
+                <FieldRef Name="Project_x0020_Name" />
                 <FieldRef Name="Weekly_x0020_State" />
+                <FieldRef Name="Weekly_x0020_Budget" />
+                <FieldRef Name="Gate" />
+                <FieldRef Name="Modified" />
+                <FieldRef Name="Important_x0020_Notes" />
               </ViewFields>
               <RowLimit Paged="TRUE">30</RowLimit>
               <Aggregations Value="Off" />
               <JSLink>clienttemplates.js</JSLink>
+              <CustomFormatter />
             </View>
           </pnp:Views>
           <pnp:FieldRefs>
@@ -589,10 +458,18 @@
             <pnp:FieldRef ID="ff6caab7-d398-441f-bc8a-31d14ac83035" Name="Notes1" DisplayName="Notes" />
             <pnp:FieldRef ID="9f3c988e-b7de-4a10-9130-0c7179096ea1" Name="Important_x0020_Notes" DisplayName="Important Notes" />
             <pnp:FieldRef ID="1229812c-8f74-4774-90ed-9cfbf29ed9a9" Name="Program" DisplayName="Program" />
+            <pnp:FieldRef ID="b04eba7c-1c88-4664-853e-eec6107dce8b" Name="Gate" DisplayName="Gate" />
           </pnp:FieldRefs>
           <pnp:Webhooks>
-            <pnp:Webhook ServerNotificationUrl="https://3-eastus1.pushp.svc.ms/notifications?token=w3-44fcbaaf-c11a-458d-b538-ca5af821569b" ExpiresInDays="0" />
             <pnp:Webhook ServerNotificationUrl="https://2-eastus1.pushp.svc.ms/notifications?token=w1-d4eae4aa-1c69-47e6-9f1c-561ac33747e5" ExpiresInDays="1" />
+            <pnp:Webhook ServerNotificationUrl="https://2-eastus1.pushp.svc.ms/notifications?token=w1-1ee901f4-44d4-4554-850f-84e0d8be1dce" ExpiresInDays="1" />
+            <pnp:Webhook ServerNotificationUrl="https://0-eastus1.pushp.svc.ms/notifications?token=w1-3842d960-17af-4086-a824-2209da24160a" ExpiresInDays="1" />
+            <pnp:Webhook ServerNotificationUrl="https://5-eastus1.pushp.svc.ms/notifications?token=w0-33865560-0671-4eb1-9c4e-8420281e94b9" ExpiresInDays="1" />
+            <pnp:Webhook ServerNotificationUrl="https://5-eastus1.pushp.svc.ms/notifications?token=w0-b8bf72c7-f07a-4db6-9046-c3167c3d6863" ExpiresInDays="1" />
+            <pnp:Webhook ServerNotificationUrl="https://5-eastus1.pushp.svc.ms/notifications?token=w0-f27e2004-2ef7-4308-be21-e16f1320cb8c" ExpiresInDays="1" />
+            <pnp:Webhook ServerNotificationUrl="https://5-eastus1.pushp.svc.ms/notifications?token=w0-9cc13f69-c98b-4416-bd7e-2f65502a23f0" ExpiresInDays="1" />
+            <pnp:Webhook ServerNotificationUrl="https://4-eastus1.pushp.svc.ms/notifications?token=w3-f72df9e6-df21-46d8-bebf-63d6ff18c6c9" ExpiresInDays="1" />
+            <pnp:Webhook ServerNotificationUrl="https://3-eastus1.pushp.svc.ms/notifications?token=w0-134d2418-25a1-4901-872b-74862b4303f1" ExpiresInDays="1" />
           </pnp:Webhooks>
         </pnp:ListInstance>
       </pnp:Lists>
@@ -641,8 +518,8 @@
           <pnp:Sections>
             <pnp:Section Order="1" Type="TwoColumnLeft">
               <pnp:Controls>
-                <pnp:CanvasControl WebPartType="NewsReel" JsonControlData="{ &quot;serverProcessedContent&quot;: {&quot;htmlStrings&quot;:{},&quot;searchablePlainTexts&quot;:{&quot;title&quot;:&quot;&quot;},&quot;imageSources&quot;:{},&quot;links&quot;:{&quot;baseUrl&quot;:&quot;{hosturl}{site}&quot;},&quot;componentDependencies&quot;:{&quot;layoutComponentId&quot;:&quot;a2752e70-c076-41bf-a42e-1d955b449fbc&quot;}}, &quot;properties&quot;: {&quot;layoutId&quot;:&quot;FeaturedNews&quot;,&quot;dataProviderId&quot;:&quot;viewCounts&quot;,&quot;emptyStateHelpItemsCount&quot;:1,&quot;showChrome&quot;:true,&quot;prefetchCount&quot;:4,&quot;newsDataSourceProp&quot;:1,&quot;newsSiteList&quot;:[],&quot;renderItemsSliderValue&quot;:4,&quot;webId&quot;:&quot;{siteid}&quot;,&quot;siteId&quot;:&quot;{sitecollectionid}&quot;}}" ControlId="8c88f208-6c77-4bdb-86a0-0c47b4316588" Order="1" Column="1" />
-                <pnp:CanvasControl WebPartType="List" JsonControlData="{ &quot;serverProcessedContent&quot;: {&quot;htmlStrings&quot;:{},&quot;searchablePlainTexts&quot;:{},&quot;imageSources&quot;:{},&quot;links&quot;:{}}, &quot;properties&quot;: {&quot;isDocumentLibrary&quot;:true,&quot;selectedListId&quot;:&quot;{listid:Project documents}&quot;,&quot;listTitle&quot;:&quot;Documents&quot;,&quot;selectedListUrl&quot;:&quot;{site}/Shared Documents&quot;,&quot;webRelativeListUrl&quot;:&quot;/Shared Documents&quot;,&quot;webpartHeightKey&quot;:4,&quot;selectedViewId&quot;:&quot;{viewid:Project documents,All Documents}&quot;}}" ControlId="f92bf067-bc19-489e-a556-7fe95f508720" Order="1" Column="2" />
+                <pnp:CanvasControl WebPartType="NewsReel" JsonControlData="{&quot;layoutId&quot;:&quot;FeaturedNews&quot;,&quot;dataProviderId&quot;:&quot;viewCounts&quot;,&quot;emptyStateHelpItemsCount&quot;:1,&quot;showChrome&quot;:true,&quot;prefetchCount&quot;:4,&quot;newsDataSourceProp&quot;:1,&quot;newsSiteList&quot;:[],&quot;renderItemsSliderValue&quot;:4,&quot;webId&quot;:&quot;{siteid}&quot;,&quot;siteId&quot;:&quot;{sitecollectionid}&quot;}" ControlId="a5df8fdf-b508-4b66-98a6-d83bc2597f63" Order="1" Column="1" />
+                <pnp:CanvasControl WebPartType="List" JsonControlData="{&quot;isDocumentLibrary&quot;:true,&quot;selectedListId&quot;:&quot;{listid:Project documents}&quot;,&quot;listTitle&quot;:&quot;Documents&quot;,&quot;selectedListUrl&quot;:&quot;{site}/Shared Documents&quot;,&quot;webRelativeListUrl&quot;:&quot;/Shared Documents&quot;,&quot;webpartHeightKey&quot;:4,&quot;selectedViewId&quot;:&quot;309be50d-9dd6-4fbd-9b63-9bbe0b35b156&quot;}" ControlId="f92bf067-bc19-489e-a556-7fe95f508720" Order="1" Column="2" />
               </pnp:Controls>
             </pnp:Section>
             <pnp:Section Order="2" Type="TwoColumnLeft" />

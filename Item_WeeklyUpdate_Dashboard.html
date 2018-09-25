@@ -6,25 +6,19 @@
 <mso:CustomDocumentProperties>
 <mso:TemplateHidden msdt:dt="string">0</mso:TemplateHidden>
 <mso:MasterPageDescription msdt:dt="string">Displays a result tailored for a Weekly update.</mso:MasterPageDescription>
-<mso:ContentTypeId msdt:dt="string">0x01003216C6F14E0F79479A305EA7C05FAEC0</mso:ContentTypeId>
+<mso:ContentTypeId msdt:dt="string">0x0101002039C03B61C64EC4A04F5361F38510660300D9D840A48C02EA4ABB5E5F9C45B18D11</mso:ContentTypeId>
 <mso:TargetControlType msdt:dt="string">;#SearchResults;#</mso:TargetControlType>
 <mso:HtmlDesignAssociated msdt:dt="string">1</mso:HtmlDesignAssociated>
 <mso:CrawlerXSLFile msdt:dt="string"></mso:CrawlerXSLFile>
 <mso:ManagedPropertyMapping msdt:dt="string">'Title':'Title','Path':'Path','ProjectName':'RefinableString103','ProjectNumber':'RefinableString104','ProgramName':'RefinableString105','LastModifiedTime':'LastModifiedTime','WeeklyStatus':'RefinableString107',Responsable':'RefinableString108','ParentLink':'ParentLink'</mso:ManagedPropertyMapping>
+<mso:HtmlDesignStatusAndPreview msdt:dt="string">https://smartworkplace365.sharepoint.com/sites/DemoTMODuvaltex/_catalogs/masterpage/Display Templates/Search/Item_WeeklyUpdate_Dashboard.html, Conversion successful.</mso:HtmlDesignStatusAndPreview>
+<mso:HtmlDesignPreviewUrl msdt:dt="string"></mso:HtmlDesignPreviewUrl>
+<mso:HtmlDesignConversionSucceeded msdt:dt="string">True</mso:HtmlDesignConversionSucceeded>
 </mso:CustomDocumentProperties>
 </xml><![endif]-->
 </head>
 <body>
-        <style>
-        .box{ 
-            background-color: orange;
-            position: absolute;
-            height: 60%;
-            width: 60%;
-            left: 20%;
-            top: 20%;
-          }
-        </style>
+
     <div id="Item_WeeklyUpdate">
 <!--#_ 
                     if(!$isNull(ctx.CurrentItem) && !$isNull(ctx.ClientControl)){
@@ -44,13 +38,13 @@
                         var webUrl = encodedPath.slice(0, encodedPath.lastIndexOf("/Lists/"));
                         var alertColor;
                         switch(weeklyStatus) {
-                            case "green":
+                            case "Green":
                                 alertColor = "green"
                                 break;
-                            case "yellow":
+                            case "Yellow":
                                 alertColor = "yellow"
                                 break;
-                            case "red":
+                            case "Red":
                                 alertColor = "red"
                                 break;
                             default:
@@ -64,15 +58,20 @@ _#-->
                                 <div id="WeeklyUpdateContainer">
                                     <div id="NameField">
                                         <div id="NameValue" class="ms-srch-ellipsis ms-textLarge">
-                                            <div style="background-color: _#= alertColor =#_;width:10px;height:10px"></div><a clicktype="Result" id="NameFieldLink" href="_#= webUrl =#_" title="_#= projectName =#_">Project Name : _#= projectName =#_</a>
-                                            <span id="FieldTitle" class="ms-soften">Program Name : _#= programName =#_ </span>
-                                            <span id="FieldTitle" class="ms-soften">Project Number : _#= projectNumber =#_ </span>
-                                            <span id="FieldTitle" class="ms-soften">Last Modified : _#= lastModifiedTime =#_ </span>
+                                            <span id="FieldTitle" class="ms-soften">
+                                                <div style="background-color: _#= alertColor =#_;width:15px;height:15px"></div> 
+                                                <a clicktype="Result" id="NameFieldLink" href="_#= webUrl =#_" title="_#= projectName =#_">Project Name : _#= projectName =#_</a>
+                                            </span>
+                                            <br>
+                                            <span id="FieldTitle" class="ms-soften">Program Name : _#= programName =#_ </span><br>
+                                            <span id="FieldTitle" class="ms-soften">Project Number : _#= projectNumber =#_ </span><br>
+                                            <span id="FieldTitle" class="ms-soften">Last Modified : _#= lastModifiedTime =#_ </span><br>
                                         </div>
                                                                                 
                                         <div id="NameValue" class="ms-srch-ellipsis ms-textLarge">
-                                            <a clicktype="Result" id="NameFieldLink" href="_#= webUrl =#_/Management%20documentations/Forms/AllItems.aspx" title="LinkToManagementDocument">Management Documents</a>
-                                            <a clicktype="Result" id="NameFieldLink" href="_#= webUrl =#_/shared documents/Forms/AllItems.aspx" title="LinkToManagementDocument">Project Documents</a>
+                                            <a clicktype="Result" id="NameFieldLink" href="_#= webUrl =#_/Management%20documentations/Forms/AllItems.aspx" title="LinkToManagementDocument">Management Documents</a><br>
+                                            <a clicktype="Result" id="NameFieldLink" href="_#= webUrl =#_/shared documents/Forms/AllItems.aspx" title="LinkToManagementDocument">Project Documents</a><br>
+                                            <a clicktype="Result" id="NameFieldLink" href="_#= webUrl =#_/Lists/Gate%20status/AllItems.aspx" title="LinkToManagementDocument">Gates Status</a><br>
                                         </div>
                                     </div>
                                 </div>                            
