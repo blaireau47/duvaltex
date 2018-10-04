@@ -10,13 +10,18 @@
 <mso:TargetControlType msdt:dt="string">;#SearchResults;#</mso:TargetControlType>
 <mso:HtmlDesignAssociated msdt:dt="string">1</mso:HtmlDesignAssociated>
 <mso:CrawlerXSLFile msdt:dt="string"></mso:CrawlerXSLFile>
-<mso:ManagedPropertyMapping msdt:dt="string">'Title':'Title','Path':'Path','ProjectName':'RefinableString103','ProjectNumber':'RefinableString104','ProgramName':'RefinableString105','LastModifiedTime':'LastModifiedTime','WeeklyStatus':'RefinableString107',Responsable':'RefinableString108','ParentLink':'ParentLink'</mso:ManagedPropertyMapping>
+<mso:ManagedPropertyMapping msdt:dt="string">'Title':'Title','Path':'Path','ProjectName':'RefinableString103','ProjectNumber':'RefinableString104','ProgramName':'RefinableString105','LastModifiedTime':'LastModifiedTime','WeeklyStatus':'RefinableString107','Responsable':'RefinableString108','Gate':'RefinableString106','ParentLink':'ParentLink'</mso:ManagedPropertyMapping>
 <mso:HtmlDesignStatusAndPreview msdt:dt="string">https://smartworkplace365.sharepoint.com/sites/DemoTMODuvaltex/_catalogs/masterpage/Display Templates/Search/Item_WeeklyUpdate_Dashboard.html, Conversion successful.</mso:HtmlDesignStatusAndPreview>
 <mso:HtmlDesignPreviewUrl msdt:dt="string"></mso:HtmlDesignPreviewUrl>
 <mso:HtmlDesignConversionSucceeded msdt:dt="string">True</mso:HtmlDesignConversionSucceeded>
 </mso:CustomDocumentProperties>
 </xml><![endif]-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/solid.css" integrity="sha384-VGP9aw4WtGH/uPAOseYxZ+Vz/vaTb1ehm1bwx92Fm8dTrE+3boLfF1SpAtB1z7HW" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/fontawesome.css" integrity="sha384-1rquJLNOM3ijoueaaeS5m+McXPJCGdr5HcA03/VHXxcp2kX2sUrQDmFc3jR5i/C7" crossorigin="anonymous">
+
 </head>
+
+
 <body>
 
     <div id="Item_WeeklyUpdate">
@@ -32,7 +37,9 @@
                         var projectName = $getItemValue(ctx, "ProjectName").toString();
                         var projectNumber = $getItemValue(ctx, "ProjectNumber").toString();
                         var programName = $getItemValue(ctx, "ProgramName").toString();
-                        var lastModifiedTime = ctx.CurrentItem.LastModifiedTime;
+                        var gate = $getItemValue(ctx, "Gate").toString();
+                        var lastModifiedTime = ctx.CurrentItem.LastModifiedTime;                        
+                        var parsedDate = lastModifiedTime.format('MM/dd/yyyy');
                         var weeklyStatus = $getItemValue(ctx, "WeeklyStatus").toString();
                         var responsable = $getItemValue(ctx, "Responsable").toString();
                         var webUrl = encodedPath.slice(0, encodedPath.lastIndexOf("/Lists/"));
@@ -53,29 +60,32 @@
                         }
                                 
                         var hoverUrl = "~sitecollection/_catalogs/masterpage/Display Templates/Search/Item_Person_HoverPanel.js";
-_#-->
-                        <div id="_#= $htmlEncode(container_id) =#_" class="ms-srch-people-outerContainer">
-                                <div id="WeeklyUpdateContainer">
-                                    <div id="NameField">
-                                        <div id="NameValue" class="ms-srch-ellipsis ms-textLarge">
-                                            <span id="FieldTitle" class="ms-soften">
-                                                <div style="background-color: _#= alertColor =#_;width:15px;height:15px"></div> 
-                                                <a clicktype="Result" id="NameFieldLink" href="_#= webUrl =#_" title="_#= projectName =#_">Project Name : _#= projectName =#_</a>
-                                            </span>
-                                            <br>
-                                            <span id="FieldTitle" class="ms-soften">Program Name : _#= programName =#_ </span><br>
-                                            <span id="FieldTitle" class="ms-soften">Project Number : _#= projectNumber =#_ </span><br>
-                                            <span id="FieldTitle" class="ms-soften">Last Modified : _#= lastModifiedTime =#_ </span><br>
-                                        </div>
-                                                                                
-                                        <div id="NameValue" class="ms-srch-ellipsis ms-textLarge">
-                                            <a clicktype="Result" id="NameFieldLink" href="_#= webUrl =#_/Management%20documentations/Forms/AllItems.aspx" title="LinkToManagementDocument">Management Documents</a><br>
-                                            <a clicktype="Result" id="NameFieldLink" href="_#= webUrl =#_/shared documents/Forms/AllItems.aspx" title="LinkToManagementDocument">Project Documents</a><br>
-                                            <a clicktype="Result" id="NameFieldLink" href="_#= webUrl =#_/Lists/Gate%20status/AllItems.aspx" title="LinkToManagementDocument">Gates Status</a><br>
-                                        </div>
-                                    </div>
-                                </div>                            
-                        </div>
+_#-->                   <table>
+                            
+                            <tr><td rowspan="4" style="background-color: _#= alertColor =#_;width:30px"></td>
+                                <td ><span id="FieldTitle" class="ms-srch-ellipsis ms-textLarge"><a clicktype="Result" id="NameFieldLink" href="_#= webUrl =#_/SitePages/Weekly.aspx" title="_#= projectName =#_">_#= projectName =#_</a></span></td>
+                                <td> _#= gate =#_</td>
+                                <td>_#= parsedDate =#_</td>
+                            </tr>
+                            <tr><td colspan="2"> _#= responsable =#_</td><td> _#= programName =#_ </td></tr>
+                            <tr><td colspan="3">
+                                    <table>
+                                        <tr>
+                                            <td><i class="fas fa-calculator"></i><a clicktype="Result" id="NameFieldLink" href="_#= webUrl =#_/Management%20documentations/Forms/AllItems.aspx" title="LinkToManagementDocument">Management Documents</a><br></td>
+                                            <td><i class="fab fa-adversal"></i><a clicktype="Result" id="NameFieldLink" href="_#= webUrl =#_/shared documents/Forms/AllItems.aspx" title="LinkToManagementDocument">Project Documents</a><br></td>
+                                        </tr>
+                                        <tr>
+                                                <td><i class="fa fa-search"></i> <a clicktype="Result" id="NameFieldLink" href="_#= webUrl =#_/Lists/Gate%20status/AllItems.aspx" title="LinkToManagementDocument">Gates Status</a><br></td>
+                                                <td><i class="fab fa-adversal"></i><a clicktype="Result" id="NameFieldLink" href="_#= webUrl =#_" title="LinkToManagementDocument">Project Site</a><br></td>
+                                            </tr>
+                                    </table>
+                                </td>                                                              
+                            </tr>
+
+
+                        </table>  
+                        <br>  <br>  <br>  
+
                         
 <!--#_ 
                 } 
